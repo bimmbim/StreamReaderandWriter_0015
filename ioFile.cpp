@@ -16,4 +16,10 @@ int main () {
         if (baris == "q") break;
         outfile << baris << endl;
     }
+    outfile.close();
+    ifstream infile;
+    infile.open("contohfile.txt");
+
+   
+    
 };
